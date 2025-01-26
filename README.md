@@ -7,6 +7,6 @@ https://www.youtube.com/watch?v=jUBU5e0ocU0&t=5s
 
 ## Pics
 
-![Alt text](https://github.com/wilson3682/ESP32_HUB75_Weather_Station/blob/main/WeatherPic.jpg)
+![WetherPic](/images/WeatherPic.jpg)
 
-![WeatherGif](/WeatherGif.gif)
+![WeatherGif](/images/WeatherGif.gif)
