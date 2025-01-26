@@ -181,10 +181,8 @@ void setup() {
   dma_display->clearScreen();
 }
 
-uint8_t wheelval = 0;
-
 void loop() {
-  drawText(wheelval);
+  drawText();
 }
 
 void getData() {
@@ -248,7 +246,7 @@ void connectWiFi() {
   Serial.println(WiFi.localIP());
 }
 
-void drawText(int colorWheelOffset) {
+void drawText() {
   static unsigned long lastUpdateTime = 0;     // Store the last update time for the 1000 ms delay
   static unsigned long lastWeatherUpdate = 0;  // Store the last time getData() was called
   static bool colonVisible = true;             // State variable for colon visibility
@@ -267,10 +265,7 @@ void drawText(int colorWheelOffset) {
   if (currentMillis - lastUpdateTime >= shortInterval) {
     lastUpdateTime = currentMillis;
 
-    colonVisible = !colonVisible;  // Toggle colon visibility
-
-    wheelval += 1;
-    // No need for delay as we are using millis() to manage the timing
+    colonVisible = !colonVisible;  // Toggle colon visibility   
 
     timeClient.update();
     time_t epochTime = timeClient.getEpochTime();
