@@ -6,6 +6,12 @@ You will need to get and API key from: https://openweathermap.org/
 
 Create an account and get one for free, without the key, it won't work.
 
+Also a City Id is needed, go to:https://openweathermap.org/city/
+
+Search for you city and take the ID, for example if you look for Washington the key will be
+at the end of the address's link: https://openweathermap.org/city/5815135
+
+This will be your City ID: 5815135
 ## 
 
 ## Original Project:
