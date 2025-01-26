@@ -306,13 +306,17 @@ void drawText() {
 
     // Draw the blinking colon
     if (colonVisible) {
-      dma_display->setCursor(46, 3);
-      dma_display->setTextColor(dma_display->color444(0, 15, 0));
-      dma_display->println(":");
+      dma_display->setTextColor(dma_display->color444(15, 0, 0));
+      dma_display->setCursor(45, -1);      
+      dma_display->println(".");
+      dma_display->setCursor(45, 2);      
+      dma_display->println(".");
     } else {
-      dma_display->fillRect(46, 3, 6, 7, dma_display->color444(0, 0, 0));  // Clear the colon
+      dma_display->fillRect(45, -1, 6, 7, dma_display->color444(0, 0, 0));  // Clear the colon
+      dma_display->fillRect(45, 2, 6, 7, dma_display->color444(0, 0, 0));   // Clear the colon
     }
-
+    
+    dma_display->setTextColor(dma_display->color444(0, 15, 0));
     dma_display->setCursor(51, 3);
     dma_display->println(mm + Minute);
 
