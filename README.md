@@ -6,7 +6,7 @@ You will need an API key from: https://openweathermap.org/
 
 Create an account and get one for free, without the key, it won't work.
 
-Also a City Id is needed, go to:https://openweathermap.org/city/
+Also a City Id is needed, go to: https://openweathermap.org/city/
 
 Search for you city and take the ID, for example if you look for Washington the key will be
 at the end of the address's link: https://openweathermap.org/city/5815135
@@ -16,7 +16,7 @@ This will be your City ID: 5815135
 
 Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.com/product/rgb-matrix-panel-drive-interface-board-for-esp32-dma/)
 
-ESP32 Board used:[ESP32-DevKitC ](https://www.electrodragon.com/product/esp32-devkitc/)
+ESP32 Board used: [ESP32-DevKitC ](https://www.electrodragon.com/product/esp32-devkitc/)
 
 ## 
 
