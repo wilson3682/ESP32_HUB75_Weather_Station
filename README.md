@@ -12,6 +12,12 @@ Search for you city and take the ID, for example if you look for Washington the 
 at the end of the address's link: https://openweathermap.org/city/5815135
 
 This will be your City ID: 5815135
+## Development Board used:
+
+Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.com/product/rgb-matrix-panel-drive-interface-board-for-esp32-dma/)
+
+ESP32 Board used:[ESP32-DevKitC ](https://www.electrodragon.com/product/esp32-devkitc/)
+
 ## 
 
 ## Original Project:
